@@ -32,7 +32,7 @@ APP_TZ = ZoneInfo(os.getenv("APP_TZ", "Asia/Taipei"))
 # ✅ Dobot 連線設定（只觸發 Studio 腳本）
 DOBOT_IP = os.getenv("DOBOT_IP", "192.168.5.1")
 DOBOT_PORT = int(os.getenv("DOBOT_PORT", "29999"))
-DOBOT_SCRIPT = os.getenv("DOBOT_SCRIPT", "src0")   # ← 要與 Studio 腳本名稱一致
+DOBOT_SCRIPT = os.getenv("DOBOT_SCRIPT", "RUN_ALL")   # ← 要與 Studio 腳本名稱一致
 ROBOT_RUN_SECONDS = int(os.getenv("ROBOT_RUN_SECONDS", "20"))  # 用於前端進度顯示
 ROBOT_API_KEY = os.getenv("ROBOT_API_KEY", ADMIN_PASSWORD)     # 簡單共用你的管理密碼
 
