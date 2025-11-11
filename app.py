@@ -122,8 +122,6 @@ INDEX_HTML = Template("""
         </div>
       </div>
       <button type="submit">送出訂單</button>
-    </form>
-    <div class="footer">本系統僅作展示用途</div>
   </div>
 </div>
 """)
