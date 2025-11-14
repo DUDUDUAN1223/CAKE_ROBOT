@@ -37,7 +37,7 @@ ROBOT_WEBHOOK_URL = os.getenv("ROBOT_WEBHOOK_URL")        # 有就用 webhook，
 DOBOT_IP = os.getenv("DOBOT_IP", "192.168.5.1")
 DOBOT_PORT = int(os.getenv("DOBOT_PORT", "29999"))
 DOBOT_SCRIPT = os.getenv("DOBOT_SCRIPT", "RUN_ALL")
-ROBOT_RUN_SECONDS = int(os.getenv("ROBOT_RUN_SECONDS", "20"))
+ROBOT_RUN_SECONDS = int(os.getenv("ROBOT_RUN_SECONDS", "720"))
 ROBOT_API_KEY = os.getenv("ROBOT_API_KEY", ADMIN_PASSWORD)
 
 # Session（用於登入保護）
